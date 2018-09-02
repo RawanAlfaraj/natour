@@ -1,0 +1,8 @@
+// append sudo elemnt after the element to clear the collapse
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
